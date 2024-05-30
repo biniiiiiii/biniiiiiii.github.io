@@ -9,7 +9,25 @@
     src: url("fonts/Pretendard-Regular.otf") format("opentype");
     /*src: url("fonts/Pretendard-Regular.ttf") format("truetype"); 트루타입 폰트인 경우 */
 }
+
+@font-face {
+    font-family: "온글잎 밑미";
+    src: url("fonts/온글잎 밑미.tff") format("truetype");
 /* 웹 상의 폰트 파일을 사용하는 경우 */
+}
+
+@font-face {
+    font-family: "KOTRA HOPE";
+    src: url("fonts/KOTRA HOPE.otf") format("opentype");
+/* 웹 상의 폰트 파일을 사용하는 경우 */
+}
+
+@font-face {
+    font-family: "go";
+    src: url("go.ttf") format("truetype");
+/* 웹 상의 폰트 파일을 사용하는 경우 */
+}
+
 @font-face {
     font-family: 'RixYeoljeongdo_Regular';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
@@ -40,14 +58,14 @@ header 영역 - 로고, 메인메뉴
     left: 0;
     width: 100%;
     height: 80px;
-    background-color: #d60b6a;
+    background-color: #f1b1cf;
     z-index: 10000;
 }
 #logo {
     position: absolute;
     bottom: 16px;
     left: 800px;
-    font-family: 'RixYeoljeongdo_Regular';
+    font-family: 'go';
     font-size: 36px;
 }
 #navmenu {
@@ -55,6 +73,7 @@ header 영역 - 로고, 메인메뉴
     position: absolute;
     bottom: 16px;
     right: 16px;
+    font-family: 'go';
     padding-right: 10px;
 }
 /* #navmenu 요소에 포함된 a 태그 스타일 설정 */
@@ -83,19 +102,29 @@ header 영역 - 로고, 메인메뉴
     padding-bottom: 60px;
     /*background-color: bisque;*/
 }
-#featured-image {
+/*#featured-image {
     position: relative;
     width: 100%;
 }
-#featured-image img {
+#featured-image img {  
+}*/
+#다운로드2{
+    width: 300px;
+    margin: 0 auto;
+}
+#다운로드2 img {
     width: 100%;
 }
+
 #main-text {
     position: relative;
-    font-family: "Pretendard-Regular";
+    font-family: "온글잎 밑미";
     font-size: 24px;
     line-height: 180%;
     /*background-color: blanchedalmond;*/
+}
+#cats {
+    display: flex;
 }
 #copyright {
     padding-top: 60px;
