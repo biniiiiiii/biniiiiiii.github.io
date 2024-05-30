@@ -108,6 +108,8 @@ header 영역 - 로고, 메인메뉴
 }
 #featured-image img {  
 }*/
+
+
 #다운로드2{
     width: 300px;
     margin: 0 auto;
@@ -123,6 +125,23 @@ header 영역 - 로고, 메인메뉴
 #키티 img {
     width: 100%;
 }
+
+#극장판{
+    width: 300px;
+    margin: 0 auto;
+}
+#극장판 img {
+    width: 100%;
+}
+
+#로고{
+    width: 300px;
+    margin: 0 auto;
+}
+#로고 img {
+    width: 100%;
+}
+
 
 #main-text {
     position: relative;
