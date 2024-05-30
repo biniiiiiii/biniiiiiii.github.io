@@ -116,6 +116,14 @@ header 영역 - 로고, 메인메뉴
     width: 100%;
 }
 
+#키티{
+    width: 300px;
+    margin: 0 auto;
+}
+#키티 img {
+    width: 100%;
+}
+
 #main-text {
     position: relative;
     font-family: "온글잎 밑미";
